@@ -1,0 +1,52 @@
+header {
+  height: 90px;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-bar .nav-logo {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.nav-bar .nav-title {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.main-content {
+  padding: 60px 30px;
+  background-image: url(assets/react.svg);
+  background-repeat: no-repeat;
+  background-position: 122% 26vh;
+  background-size: 30vw;
+}
+
+.main-content > h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.main-content .facts-list {
+  margin-top: 48px;
+  max-width: 400px;
+}
+
+.main-content .facts-list > li {
+  padding-block: 10px;
+  line-height: 20px;
+}
+
+.main-content .facts-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
+
